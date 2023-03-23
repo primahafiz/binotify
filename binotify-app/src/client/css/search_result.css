@@ -1,0 +1,83 @@
+.list-input{
+    position: absolute;
+    right: 50px
+}
+
+#search{
+    width: 220px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-image: url(../assets/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 9px 12px;
+    outline: 0;
+    background-size: 15px;
+}
+
+.dropdown{
+    height: 40px;
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: none;
+    color: black;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+}
+
+#btnSearch{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: #1db954 !important;
+    color: white !important;
+}
+
+#btnSearch:hover{
+    cursor: pointer;
+    background-color: rgba(19, 84, 9, 0.849) !important;
+}
+
+@media only screen and (max-width: 600px){
+    .list-title{
+        padding: 300px 100px 30px 30px;
+    }
+    #songs{
+        padding-left: 30px;
+    }
+    #prev-button{
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-right: 50px;
+        height: 40px;
+        width: 40px;
+        z-index: 5;
+        display: inline-block;
+        flex-direction:row;
+        justify-content: right;
+        align-items: center;
+      }
+      
+      #next-button{
+        padding-top: 20px;
+        padding-left: 20px;
+        height: 40px;
+        width: 40px;
+        z-index: 5;
+        display: inline-block;
+        flex-direction:row;
+        justify-content: right;
+        align-items: center;
+      }
+}

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./
+    command: npm run dev
+    image: tubes-2-react:latest
+    ports:
+      - 3300:3300

@@ -1,0 +1,7 @@
+version: '8'
+services:
+  web:
+    image: tubes-2-soap:latest
+    env_file: .env
+    ports:
+      - 9080:9080

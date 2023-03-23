@@ -1,0 +1,20 @@
+.user-info{
+  position: absolute;
+  display: none;
+  right: 15px;
+  padding-top: 25px;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 200px;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+#table-image{
+  height: 50px;
+  width: 50px;
+}
+
+a{
+  color: white;
+}

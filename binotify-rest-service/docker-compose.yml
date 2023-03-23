@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./
+    command: npm start
+    image: tubes-2-rest:latest
+    ports:
+      - 8081:8081

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WBD - Login</title>
+    <link rel="stylesheet" href="client/css/index.css" />
+    <link rel="stylesheet" href="client/css/auth.css" />
+  </head>
+  <body>
+    <div class="auth-head">
+      <img class="auth-logo" src="client/assets/logo-black.png" alt="logo" />
+    </div>
+
+    <div>
+      <hr class="line" />
+    </div>
+
+    <div class="auth-body">
+      <h3 class="mb-20">To continue, log in to Spotify.</h3>
+      <form class="auth-form" method="POST">
+        <div id="required-id" class="field-container">
+          <label for="id">Email address or username</label><br />
+          <input
+            class="field"
+            type="text"
+            name="id"
+            placeholder="Email address or username"
+          /><br />
+        </div>
+
+        <div id="required-pass" class="field-container">
+          <label for="password">Password</label><br />
+          <input
+            class="field"
+            type="password"
+            name="password"
+            placeholder="Password"
+          /><br />
+        </div>
+
+        <input class="btn bg-green mt-20" type="submit" value="LOG IN" />
+      </form>
+
+      <hr class="line line-bottom" />
+      <h2 class="text-bigger">Don't have an account?</h2>
+      <button class="btn reg-btn mt-20">SIGN UP</button>
+    </div>
+
+    <script type="module" src="client/app/auth/login.js"></script>
+  </body>
+</html>

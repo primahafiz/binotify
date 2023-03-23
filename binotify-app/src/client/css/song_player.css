@@ -1,0 +1,84 @@
+.wrapper {
+    min-height: 100vh;
+
+    margin-bottom: -100px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    display: block;
+    display: table;
+    width: 100%;
+    min-height: 100%;
+}
+
+body > .footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    display: none;
+    height: 100px;
+    z-index: 999;
+    background-image: linear-gradient(rgb(31, 30, 30), rgb(73, 73, 73));
+}
+
+.push{
+    height: 50px;
+}
+
+.song-control{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-button {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#song-picture{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 80px;
+    width: 80px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: center;
+}
+
+#song-title{
+    padding-top: 30px;
+    padding-left: 100px;
+    width: auto;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: beige
+}
+
+#song-artist{
+    padding-top: 50px;
+    padding-left: 100px;
+    width: auto;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color:silver
+}

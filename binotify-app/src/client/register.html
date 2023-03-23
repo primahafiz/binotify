@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WBD - Register</title>
+    <link rel="stylesheet" href="client/css/index.css" />
+    <link rel="stylesheet" href="client/css/auth.css" />
+  </head>
+  <body>
+    <div class="auth-head">
+      <img class="auth-logo" src="client/assets/logo-black.png" alt="logo" />
+    </div>
+
+    <div>
+      <hr class="line" />
+    </div>
+
+    <div class="auth-body">
+      <form class="auth-form form-reg" method="POST">
+        <div id="required-email" class="field-container">
+          <label for="email">What is your email?</label><br />
+          <input
+            class="field"
+            type="text"
+            name="email"
+            placeholder="Enter your email."
+          /><br />
+        </div>
+
+        <div id="required-username" class="field-container">
+          <label for="username">What is your username?</label><br />
+          <input
+            class="field"
+            type="text"
+            name="username"
+            placeholder="Enter your username."
+          /><br />
+        </div>
+
+        <div id="required-pass" class="field-container">
+          <label for="password">Create a password</label><br />
+          <input
+            class="field"
+            type="password"
+            name="password"
+            placeholder="Enter your password."
+          /><br />
+        </div>
+
+        <div id="required-retype-pass" class="field-container">
+          <label for="password">Retype your password</label><br />
+          <input
+            class="field"
+            type="password"
+            name="retype_password"
+            placeholder="Re-enter your password."
+          /><br />
+        </div>
+
+        <input class="btn bg-green mt-20" type="submit" value="SIGN UP" />
+      </form>
+
+      <hr class="line line-bottom" />
+      <h2 class="text-bigger login-link">
+        Have an account?
+        <a href="/login">Log in</a>.
+      </h2>
+    </div>
+
+    <script type="module" src="client/app/auth/register.js"></script>
+  </body>
+</html>

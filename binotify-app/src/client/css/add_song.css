@@ -1,0 +1,24 @@
+#sidebar{
+    width: 25%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+#submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+#formMsg{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+    #main{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,101 @@
+@use "global";
+@use "const";
+
+.list-container {
+  width: 80%;
+  min-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.list-container h2 {
+  margin-bottom: 20px;
+}
+
+.list-header,
+.list-item {
+  //   background-color: const.$light-green;
+  border-bottom: 1px solid black;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row {
+  font-weight: 500;
+}
+
+.row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.even-row {
+  background-color: rgb(248, 255, 238);
+}
+
+.list-btn {
+  width: 80%;
+  font-weight: 500;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+
+  border: none;
+  border-radius: 5px;
+  color: const.$white;
+  background-color: const.$green;
+}
+
+.list-btn:hover {
+  background-color: const.$dark-green;
+  transition: all 0.2s ease-in-out;
+}
+
+.name-container {
+  inline-size: 80%;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-add button {
+  width: 20%;
+  font-weight: 500;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+  border: none;
+  color: const.$white;
+  background-color: const.$green;
+}
+
+.btn-add button:hover {
+  color: const.$white;
+  background-color: const.$dark-green;
+}
+
+.pagination-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-btn {
+  cursor: pointer;
+}

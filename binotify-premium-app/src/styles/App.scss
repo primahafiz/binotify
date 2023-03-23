@@ -1,0 +1,22 @@
+@use "const";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: const.$green;
+}
+
+.main-area {
+  margin-left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-area {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+}

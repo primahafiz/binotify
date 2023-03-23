@@ -1,0 +1,63 @@
+@use "const";
+
+/* Background */
+.bg-black {
+  background-color: const.$black !important;
+  color: const.$white;
+}
+
+.bg-gray {
+  background-color: const.$gray !important;
+}
+
+.bg-light-gray {
+  background-color: const.$light-gray !important;
+}
+
+.bg-super-light-gray {
+  background-color: const.$super-light-gray !important;
+}
+
+.bg-light-green {
+  background-color: const.$light-green !important;
+}
+
+.bg-white {
+  background-color: const.$white !important;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+/* Text */
+.text-white {
+  color: const.$white;
+}
+
+.text-error {
+  color: const.$red;
+}
+
+.text-success {
+  color: const.$green;
+}
+
+/* Buttons */
+.btn {
+  width: 200px;
+  height: 42px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  text-align: center !important;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 0.95;
+  transition: all 0.2s ease-out;
+}
